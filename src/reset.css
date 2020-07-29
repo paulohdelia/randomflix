@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 :root {
@@ -12,6 +12,8 @@
   --white: #ffffff;
   --frontEnd: #6bd1ff;
   --backEnd: #00c86f;
+
+  --bodyPaddingTop: 50px;
 }
 
 html,
@@ -22,4 +24,10 @@ body {
 
 a {
   color: inherit;
+}
+
+#root {
+  min-height: calc(100vh - var(--bodyPaddingTop));
+  display: flex;
+  flex-direction: column;
 }
