@@ -1,0 +1,16 @@
+{
+  "categorias": [
+    {
+      "id": 1,
+      "nome": "Alguma categoria",
+      "descricao": "é isso aí",
+      "cor": "#ff6f91"
+    },
+    {
+      "id": 2,
+      "nome": "Hello",
+      "descricao": "olá",
+      "cor": "#00c86f"
+    }
+  ]
+}
