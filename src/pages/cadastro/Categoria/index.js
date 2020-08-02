@@ -1,9 +1,21 @@
 import React, { useState, useEffect } from 'react';
 
+import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 import PageDefault from '../../../components/PageDefault';
 import FormField from '../../../components/FormField';
 import Button from '../../../components/Button';
+import Loading from '../../../components/Loading';
+
+const Li = styled.li`
+  ::before {
+    content: '\\2022';
+    color: ${(props) => props.color};
+    font-weight: bold;
+    display: inline-block;
+    margin-right: 8px;
+  }
+`;
 
 const CadastroCategoria = () => {
   const [categorias, setCategorias] = useState([]);
@@ -32,7 +44,9 @@ const CadastroCategoria = () => {
   };
 
   useEffect(() => {
-    const URL = 'http://localhost:8080/categorias';
+    const URL = window.location.hostname.includes('localhost')
+      ? 'http://localhost:8080/categorias'
+      : 'https://randomflix.herokuapp.com/categorias';
     fetch(URL).then(async (response) => {
       const res = await response.json();
       setCategorias([
@@ -74,20 +88,15 @@ const CadastroCategoria = () => {
           <Button>Cadastrar</Button>
 
           {categorias.length === 0 && (
-            <div>
-              Loading...
-            </div>
+            <Loading />
           )}
-          <ul>
+          <ul style={{ listStyle: 'none' }}>
             {categorias.map((categoria) => {
-              const { nome, descricao, cor } = categoria;
+              const { nome, cor } = categoria;
               return (
-                <li style={{ background: cor }} key={`${nome}`}>
+                <Li color={cor} key={`${nome}`}>
                   {nome}
-                  {' '}
-                  -
-                  {descricao}
-                </li>
+                </Li>
               );
             })}
           </ul>
