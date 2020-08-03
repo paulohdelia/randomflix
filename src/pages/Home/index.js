@@ -29,7 +29,7 @@ const Home = () => {
             <BannerMain
               videoTitle={dadosIniciais[0].videos[0].titulo}
               url={dadosIniciais[0].videos[0].url}
-              videoDescription="O que é Front-end? Trabalhando na área os termos HTML, CSS e JavaScript fazem parte da rotina das desenvolvedoras e desenvolvedores. Mas o que eles fazem, afinal? Descubra com a Vanessa!"
+              videoDescription="The term random refers to any collection of data or information that has no determined order, or is chosen in a way that is unknown beforehand. For example, 5, 8, 2, 9, and 0 are single-digit numbers listed in random order. Random data may be re-ordered, or sorted, by date, name, time, age, etc., in which case its order is no longer random."
             />
 
             {dadosIniciais.map((dado, index) => (

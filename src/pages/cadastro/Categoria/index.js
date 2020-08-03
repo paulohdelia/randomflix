@@ -7,6 +7,7 @@ import Button from '../../../components/Button';
 import Loading from '../../../components/Loading';
 import PrettyLi from '../../../components/PrettyLi';
 import useForm from '../../../hooks/useForm';
+import categoriasRepository from '../../../repositories/categorias';
 
 const CadastroCategoria = () => {
   const [categorias, setCategorias] = useState([]);
@@ -22,7 +23,13 @@ const CadastroCategoria = () => {
   const handleSubmit = (event) => {
     event.preventDefault();
 
-    setCategorias([valores, ...categorias]);
+    categoriasRepository.create({
+      titulo: valores.titulo,
+      cor: valores.cor,
+      descricao: valores.descricao,
+    });
+
+    setCategorias([...categorias, valores]);
     clearForm(valoresIniciais);
   };
 

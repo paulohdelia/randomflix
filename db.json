@@ -1,285 +1,126 @@
 {
   "categorias": [
     {
-      "id": 6,
       "titulo": "R",
-      "cor": "#ff6a00",
-      "link_extra": {
-        "text": "Canal no YouTube",
-        "url": "https://youtube.com/c/DevSoutinho"
-      }
+      "cor": "#ff00ff",
+      "descricao": "Random Things starting with \"R\"",
+      "id": 1
     },
     {
-      "id": 5,
-      "titulo": "Games",
-      "cor": "red",
-      "link_extra": {
-        "text": "Formação de Jogos na Alura",
-        "url": "https://www.alura.com.br/cursos-online-front-end"
-      }
+      "titulo": "A",
+      "cor": "#9900ff",
+      "descricao": "Random Things starting with \"A\"",
+      "id": 2
     },
     {
-      "id": 4,
-      "titulo": "Filmes",
-      "cor": "orange"
+      "titulo": "N",
+      "cor": "#0000ff",
+      "descricao": "Random Things starting with \"N\"",
+      "id": 3
     },
     {
-      "id": 1,
-      "titulo": "Front End",
-      "cor": "#6BD1FF",
-      "link_extra": {
-        "text": "Formação de Front End na Alura",
-        "url": "https://www.alura.com.br/cursos-online-front-end"
-      }
+      "titulo": "D",
+      "cor": "#00ff00",
+      "descricao": "Random Things starting with \"D\"",
+      "id": 4
     },
     {
-      "id": 2,
-      "titulo": "Back End",
-      "cor": "#00C86F",
-      "link_extra": {
-        "text": "Cursos de Back End na Alura",
-        "url": "https://www.alura.com.br/cursos-online-programacao"
-      }
+      "titulo": "O",
+      "cor": "#ffff00",
+      "descricao": "Random Things starting with \"O\"",
+      "id": 5
     },
     {
-      "id": 3,
-      "titulo": "Data Science e Inteligência Artificial",
-      "cor": "#9cd33b",
-      "link_extra": {
-        "text": "Cursos de Data Science na Alura",
-        "url": "https://www.alura.com.br/cursos-online-mobile"
-      }
+      "titulo": "M",
+      "cor": "#ff0000",
+      "descricao": "Random Things starting with \"M\"",
+      "id": 6
     }
   ],
   "videos": [
     {
-      "id": 50,
-      "categoriaId": 6,
-      "titulo": "SEO com React",
-      "description": "Será que é tão difícil fazer SEO com React?",
-      "url": "https://www.youtube.com/watch?v=c8mVlakBESE"
-    },
-    {
-      "id": 51,
-      "categoriaId": 6,
-      "titulo": "Como fazer um React e aprender a ideia do Virtual DOM na prática",
-      "description": "Já parou pra pensar como que o React renderiza as coisas na tela?",
-      "url": "https://www.youtube.com/watch?v=5MzOCxSWrrc"
-    },
-    {
-      "id": 1,
+      "titulo": "What is Random?      ",
+      "url": "https://www.youtube.com/watch?v=9rIy0xY99a0",
       "categoriaId": 1,
-      "titulo": "SEO com React",
-      "description": "Será que é tão difícil fazer SEO com React?",
-      "url": "https://www.youtube.com/watch?v=c8mVlakBESE"
+      "id": 1
     },
     {
-      "id": 2,
+      "titulo": "Introduction to Radiobiology",
+      "url": "https://www.youtube.com/watch?v=mHlTnV_GVWY",
       "categoriaId": 1,
-      "titulo": "O que faz uma desenvolvedora front-end? #HipstersPontoTube",
-      "url": "https://www.youtube.com/watch?v=ZY3-MFxVdEw"
+      "id": 2
     },
     {
-      "id": 3,
+      "titulo": "Pasta with prawns in creamy rosé sauce - 새우 로제 파스타",
+      "url": "https://www.youtube.com/watch?v=UEpHvwXDyQA",
       "categoriaId": 1,
-      "titulo": "Componentização com VanillaJS #AluraMais",
-      "url": "https://www.youtube.com/watch?v=LatCKpcOMak"
+      "id": 3
     },
     {
-      "id": 4,
-      "categoriaId": 1,
-      "titulo": "Pare de chutar e aprenda a display: inline #01",
-      "url": "https://www.youtube.com/watch?v=5PS6ku8NzIE"
-    },
-    {
-      "id": 5,
-      "categoriaId": 1,
-      "titulo": "Template String: Interpolando strings com JavaScript #AluraMais",
-      "url": "https://www.youtube.com/watch?v=ORI_HTXaIw0"
-    },
-    {
-      "id": 6,
-      "categoriaId": 1,
-      "titulo": "Qual é a melhor linguagem de programação? #HipstersPontoTube",
-      "url": "https://www.youtube.com/watch?v=Uh-GNH-t89w"
-    },
-    {
-      "id": 7,
-      "categoriaId": 1,
-      "titulo": "Novidades do Angular v9",
-      "url": "https://www.youtube.com/watch?v=34uHo7hFmG0"
-    },
-    {
-      "id": 8,
+      "titulo": "AVOCADO | How Does it Grow?",
+      "url": "https://www.youtube.com/watch?v=whNYlkV-TMU",
       "categoriaId": 2,
-      "titulo": "PERCURSO em NÍVEL em ÁRVORE BINÁRIA | Estruturas de Dados #14",
-      "url": "https://www.youtube.com/watch?v=UOK7nS2E9xM"
+      "id": 4
     },
     {
-      "id": 9,
+      "titulo": "🔵 Allay Allayed Allaying - Allay Meaning - Allay Examples - Allay in a Sentence - Formal English",
+      "url": "https://www.youtube.com/watch?v=fS5QUlFwhZY",
       "categoriaId": 2,
-      "titulo": "Coders4Tips - S01E04: GitHub CLI - Uma Nova Experiência no Github!",
-      "url": "https://www.youtube.com/watch?v=6o6-bKOZOEY"
+      "id": 5
     },
     {
-      "id": 10,
+      "titulo": "God of War - All 45 Artifacts Collectibles Locations - Curator Trophy Guide",
+      "url": "https://www.youtube.com/watch?v=HBXPfjpDCxA",
       "categoriaId": 2,
-      "titulo": "Programei 4 robôs que criam vídeos para mim no YouTube",
-      "url": "https://www.youtube.com/watch?v=kjhu1LEmRpY"
+      "id": 6
     },
     {
-      "id": 11,
-      "categoriaId": 2,
-      "titulo": "API: Dicionário do Programador",
-      "url": "https://www.youtube.com/watch?v=vGuqKIRWosk"
-    },
-    {
-      "id": 12,
-      "categoriaId": 2,
-      "titulo": "Usando Git Direito",
-      "url": "https://www.youtube.com/watch?v=6OokP-NE49k"
-    },
-    {
-      "id": 13,
+      "titulo": "Nether Update: Official Trailer",
+      "url": "https://www.youtube.com/watch?v=1DhWXAiNgfQ",
       "categoriaId": 3,
-      "titulo": "Teste de Turing",
-      "url": "https://www.youtube.com/watch?v=BaPGU4JWa34"
+      "id": 7
     },
     {
-      "id": 14,
+      "titulo": "Planeta Netuno",
+      "url": "https://www.youtube.com/watch?v=2w7bz5qyVFw",
       "categoriaId": 3,
-      "titulo": "O que é Data Science?",
-      "url": "https://www.youtube.com/watch?v=5b9Z8toVaAU&t=9s"
+      "id": 8
     },
     {
-      "id": 15,
-      "categoriaId": 3,
-      "titulo": "Melhor forma de aprender Python",
-      "url": "https://www.youtube.com/watch?v=Gojqw9BQ5qY"
-    },
-    {
-      "id": 16,
-      "categoriaId": 3,
-      "titulo": "Como ingressar no mercado de Data Science?",
-      "url": "https://www.youtube.com/watch?v=gxyjGmOV540"
-    },
-    {
-      "id": 17,
+      "titulo": "deadmau5 pres. mau5trap radio 096",
+      "url": "https://www.youtube.com/watch?v=57lxXcDmh4g",
       "categoriaId": 4,
-      "titulo": "Interestellar",
-      "url": "https://www.youtube.com/watch?v=frD_IiY_A3E"
+      "id": 9
     },
     {
-      "id": 18,
+      "titulo": "DevOps CI/CD Explained in 100 Seconds",
+      "url": "https://www.youtube.com/watch?v=scEDHsr3APg",
       "categoriaId": 4,
-      "titulo": "Gattaca",
-      "url": "https://www.youtube.com/watch?v=Dl0tYLbrhhs"
+      "id": 10
     },
     {
-      "id": 19,
-      "categoriaId": 4,
-      "titulo": "A Chegada",
-      "url": "https://www.youtube.com/watch?v=rNciXGzYZms"
-    },
-    {
-      "id": 20,
-      "categoriaId": 4,
-      "titulo": "Feitiço do Tempo",
-      "url": "https://www.youtube.com/watch?v=zi8d69P9NvI"
-    },
-    {
-      "id": 21,
+      "titulo": "Cientistas confirmaram que o mistério de Oak Island foi resolvido?",
+      "url": "https://www.youtube.com/watch?v=E2iuktzHrTc",
       "categoriaId": 5,
-      "titulo": "Final Fantasy 7",
-      "url": "https://www.youtube.com/watch?v=I_ATSCTnUD8"
+      "id": 11
     },
     {
-      "id": 22,
+      "titulo": "Top 50 Most Complex Origami In The Entire World",
+      "url": "https://www.youtube.com/watch?v=28eqfVuCG7w",
       "categoriaId": 5,
-      "titulo": "Assassins Creed Valhalla",
-      "url": "https://www.youtube.com/watch?v=KDfdjB9uL0U"
+      "id": 12
     },
     {
-      "id": 23,
-      "categoriaId": 5,
-      "titulo": "God of War 4",
-      "url": "https://www.youtube.com/watch?v=FyIwEFXOcaE"
-    },
-    {
-      "id": 24,
-      "categoriaId": 5,
-      "titulo": "Resident Evil 8",
-      "url": "https://www.youtube.com/watch?v=JSapXD9vxYA"
-    },
-    {
-      "titulo": "O que todo projeto deveria ter? #01",
-      "url": "https://www.youtube.com/watch?v=yMRSDdifGW8",
+      "titulo": "Madara vs Shinobi Alliance",
+      "url": "https://www.youtube.com/watch?v=MC3KPm3YpHs",
       "categoriaId": 6,
-      "id": 52
+      "id": 13
     },
     {
-      "titulo": "Como fazer um jogo com JavaScript?",
-      "url": "https://www.youtube.com/watch?v=jOAU81jdi-c",
+      "titulo": "Marta ● Magic Skills and Tricks |HD|",
+      "url": "https://www.youtube.com/watch?v=8R1y2fgUcic",
       "categoriaId": 6,
-      "id": 53
-    },
-    {
-      "titulo": "Como fazer o efeito de desenhar com CSS?",
-      "url": "https://www.youtube.com/watch?v=4cEMgap9wpk",
-      "categoriaId": 6,
-      "id": 54
-    },
-    {
-      "titulo": "Usando Excel como CMS + React",
-      "url": "https://www.youtube.com/watch?v=5t2gq3xJZ9o",
-      "categoriaId": 6,
-      "id": 55
-    },
-    {
-      "titulo": "CSS Flexbox in 100 Seconds",
-      "url": "https://www.youtube.com/watch?v=K74l26pE4YA",
-      "categoriaId": 1,
-      "id": 56
-    },
-    {
-      "titulo": "Deno in 100 Seconds",
-      "url": "https://www.youtube.com/watch?v=F0G9lZ7gecE&list=PL0vfts4VzfNiI1BsIK5u7LpPaIDKMJIDN&index=21",
-      "categoriaId": {
-        "id": 2,
-        "titulo": "Back End",
-        "cor": "#00C86F",
-        "link_extra": {
-          "text": "Cursos de Back End na Alura",
-          "url": "https://www.alura.com.br/cursos-online-programacao"
-        }
-      },
-      "id": 57
-    },
-    {
-      "titulo": "Deno in 100 Seconds",
-      "url": "https://www.youtube.com/watch?v=F0G9lZ7gecE&list=PL0vfts4VzfNiI1BsIK5u7LpPaIDKMJIDN&index=21",
-      "categoriaId": {
-        "id": 2,
-        "titulo": "Back End",
-        "cor": "#00C86F",
-        "link_extra": {
-          "text": "Cursos de Back End na Alura",
-          "url": "https://www.alura.com.br/cursos-online-programacao"
-        }
-      },
-      "id": 58
-    },
-    {
-      "titulo": "Deno in 100 Seconds",
-      "url": "https://www.youtube.com/watch?v=F0G9lZ7gecE&list=PL0vfts4VzfNiI1BsIK5u7LpPaIDKMJIDN&index=21",
-      "categoriaId": 2,
-      "id": 59
-    },
-    {
-      "titulo": "Vue.js Explained in 100 Seconds",
-      "url": "https://www.youtube.com/watch?v=nhBVL41-_Cw&list=PL0vfts4VzfNiI1BsIK5u7LpPaIDKMJIDN&index=16",
-      "categoriaId": 1,
-      "id": 60
+      "id": 14
     }
   ]
 }
