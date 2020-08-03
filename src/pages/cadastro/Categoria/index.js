@@ -1,46 +1,29 @@
 import React, { useState, useEffect } from 'react';
 
-import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 import PageDefault from '../../../components/PageDefault';
 import FormField from '../../../components/FormField';
 import Button from '../../../components/Button';
 import Loading from '../../../components/Loading';
-
-const Li = styled.li`
-  ::before {
-    content: '\\2022';
-    color: ${(props) => props.color};
-    font-weight: bold;
-    display: inline-block;
-    margin-right: 8px;
-  }
-`;
+import PrettyLi from '../../../components/PrettyLi';
+import useForm from '../../../hooks/useForm';
 
 const CadastroCategoria = () => {
   const [categorias, setCategorias] = useState([]);
 
   const valoresIniciais = {
-    nome: '',
+    titulo: '',
     descricao: '',
     cor: '#FFFFFF',
   };
 
-  const [valores, setValores] = useState(valoresIniciais);
-
-  const setValor = (chave, valor) => {
-    setValores({ ...valores, [chave]: valor });
-  };
+  const { handleChange, valores, clearForm } = useForm(valoresIniciais);
 
   const handleSubmit = (event) => {
     event.preventDefault();
 
     setCategorias([valores, ...categorias]);
-    setValores(valoresIniciais);
-  };
-
-  const handleChange = (event) => {
-    setValor(event.target.getAttribute('name'), event.target.value);
+    clearForm(valoresIniciais);
   };
 
   useEffect(() => {
@@ -60,15 +43,15 @@ const CadastroCategoria = () => {
       <PageDefault>
         <h1>
           Cadastro de Categoria:
-          {valores.nome}
+          {valores.titulo}
         </h1>
 
         <form onSubmit={handleSubmit}>
           <FormField
-            label="Nome"
+            label="Título"
             type="text"
-            name="nome"
-            value={valores.nome}
+            name="titulo"
+            value={valores.titulo}
             onChange={handleChange}
           />
           <FormField
@@ -92,11 +75,11 @@ const CadastroCategoria = () => {
           )}
           <ul style={{ listStyle: 'none' }}>
             {categorias.map((categoria) => {
-              const { nome, cor } = categoria;
+              const { titulo, cor } = categoria;
               return (
-                <Li color={cor} key={`${nome}`}>
-                  {nome}
-                </Li>
+                <PrettyLi color={cor} key={`${titulo}`}>
+                  {titulo}
+                </PrettyLi>
               );
             })}
           </ul>
