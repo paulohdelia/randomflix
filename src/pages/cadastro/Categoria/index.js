@@ -43,6 +43,7 @@ const CadastroCategoria = () => {
       <PageDefault>
         <h1>
           Cadastro de Categoria:
+          {' '}
           {valores.titulo}
         </h1>
 

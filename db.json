@@ -234,6 +234,12 @@
       "url": "https://www.youtube.com/watch?v=5t2gq3xJZ9o",
       "categoriaId": 6,
       "id": 55
+    },
+    {
+      "titulo": "CSS Flexbox in 100 Seconds",
+      "url": "https://www.youtube.com/watch?v=K74l26pE4YA",
+      "categoriaId": 1,
+      "id": 56
     }
   ]
 }
