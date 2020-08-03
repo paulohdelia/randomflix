@@ -21,7 +21,7 @@ const Home = () => {
   }, []);
 
   return (
-    <PageDefault paddingAll={0}>
+    <PageDefault paddingAll="0">
 
       {dadosIniciais.length === 0 ? (<Loading />)
         : (
@@ -33,7 +33,7 @@ const Home = () => {
             />
 
             {dadosIniciais.map((dado, index) => (
-              <Carousel ignoreFirstVideo={index === 0} category={dado} />
+              <Carousel key={`${dado.titulo}-${dado.id}`} ignoreFirstVideo={index === 0} category={dado} />
             ))}
           </>
         )}

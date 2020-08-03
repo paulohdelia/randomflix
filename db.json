@@ -2,7 +2,7 @@
   "categorias": [
     {
       "id": 6,
-      "titulo": "DevSoutinho",
+      "titulo": "R",
       "cor": "#ff6a00",
       "link_extra": {
         "text": "Canal no YouTube",
@@ -240,6 +240,46 @@
       "url": "https://www.youtube.com/watch?v=K74l26pE4YA",
       "categoriaId": 1,
       "id": 56
+    },
+    {
+      "titulo": "Deno in 100 Seconds",
+      "url": "https://www.youtube.com/watch?v=F0G9lZ7gecE&list=PL0vfts4VzfNiI1BsIK5u7LpPaIDKMJIDN&index=21",
+      "categoriaId": {
+        "id": 2,
+        "titulo": "Back End",
+        "cor": "#00C86F",
+        "link_extra": {
+          "text": "Cursos de Back End na Alura",
+          "url": "https://www.alura.com.br/cursos-online-programacao"
+        }
+      },
+      "id": 57
+    },
+    {
+      "titulo": "Deno in 100 Seconds",
+      "url": "https://www.youtube.com/watch?v=F0G9lZ7gecE&list=PL0vfts4VzfNiI1BsIK5u7LpPaIDKMJIDN&index=21",
+      "categoriaId": {
+        "id": 2,
+        "titulo": "Back End",
+        "cor": "#00C86F",
+        "link_extra": {
+          "text": "Cursos de Back End na Alura",
+          "url": "https://www.alura.com.br/cursos-online-programacao"
+        }
+      },
+      "id": 58
+    },
+    {
+      "titulo": "Deno in 100 Seconds",
+      "url": "https://www.youtube.com/watch?v=F0G9lZ7gecE&list=PL0vfts4VzfNiI1BsIK5u7LpPaIDKMJIDN&index=21",
+      "categoriaId": 2,
+      "id": 59
+    },
+    {
+      "titulo": "Vue.js Explained in 100 Seconds",
+      "url": "https://www.youtube.com/watch?v=nhBVL41-_Cw&list=PL0vfts4VzfNiI1BsIK5u7LpPaIDKMJIDN&index=16",
+      "categoriaId": 1,
+      "id": 60
     }
   ]
 }

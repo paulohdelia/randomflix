@@ -2,6 +2,16 @@ import config from '../config';
 
 const URL_CATEGORIES = `${config.URL_BACKEND}/categorias`;
 
+const getAll = () => fetch(`${URL_CATEGORIES}`)
+  .then(async (response) => {
+    if (response) {
+      const res = await response.json();
+      return res;
+    }
+
+    throw new Error('Não foi possível pegar os dados da API');
+  });
+
 const getAllWithVideos = () => fetch(`${URL_CATEGORIES}?_embed=videos`)
   .then(async (response) => {
     if (response) {
@@ -14,4 +24,5 @@ const getAllWithVideos = () => fetch(`${URL_CATEGORIES}?_embed=videos`)
 
 export default {
   getAllWithVideos,
+  getAll,
 };
